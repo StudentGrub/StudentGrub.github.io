@@ -5,10 +5,11 @@ padding-top: 0px;
 margin:0px; }
 #centerContainer { width: 900px; text-align: left; margin: 0px auto; }
 p{
-font-family: "Times New Roman", Times, serif;
+font-family: "Verdana", Times, serif;
 text-align: left;
 padding-top:10px;
 padding-bottom:10px;
+
 }
 
 h1{
@@ -35,7 +36,7 @@ margin-right: 0px;
 display:inline;
 margin-bottom: 0px;
 margin-top:25px;
-font-weight: 400;
+font-weight: 600;
 border-radius: 5px 5px 2px 2px;
 }
 #headerPan{
@@ -56,6 +57,7 @@ width: 45%;
 height: 800px;
 float: right;
 margin-right:10px;}
+
 #contentPan{
 width: 1125px;
 padding: 25px 0px 50px 0px;
@@ -75,9 +77,9 @@ margin-bottom: 25px;
 margin-top: 25px;
 text-align: centre;
 font-weight: bold; 
-letter-spacing: 1px;
+letter-spacing: 2px;
 font-family: verdana;
-font-size: 1.2em;
+font-size: 1.5em;
 }
 .RightHeader{
 float: right;
@@ -98,8 +100,16 @@ height:166px;
 li{
 text-align: left;
 letter-spacing: 1.2px;
-font-family: "Georgia"; 
+font-family: "Verdana"; 
 }
 .info{
 margin-top: 150px;
+}
+.maintext{
+background-color: #D1FFD1;
+padding: 5px;
+border-style: solid;
+border-width: 1px;
+font-weight: 600;
+color:#373737;
 }
