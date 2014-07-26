@@ -57,10 +57,10 @@ height: 180px;
     background:#EEEADD;
     margin:10px auto 0;
     border-radius: 17px;
-	position: fixed;
+	position: absolute;
 	width: 900px;
 	background-color: #E0ECC0;
-
+	display: block;	
 }
 #photoframe1{
 width: 45%;
