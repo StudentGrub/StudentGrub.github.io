@@ -46,11 +46,23 @@ padding-left: 62.25px;
 padding-right: 62.25px;
 margin-left: auto;
 margin-right: auto;
-border-color: ##BAE681;
+
 border-width: 1px;
 border-style: solid;
 text-align: left;
 height: 180px;
+}
+#closebanner{
+ 
+    background:#EEEADD;
+    margin:10px auto 0;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+	position: fixed;
+	width: 900px;
+	background-color: #E0ECC0;
+
 }
 #photoframe1{
 width: 45%;
