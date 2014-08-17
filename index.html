@@ -14,18 +14,16 @@
 
 <div id="container">
 <div id="headerPan">
-
-			<div>
+			<div id="socialmedia">
 			<a href"http://www.facebook.com"> <img class="socialmedia" src="images/facebook.png" alt="facebook"></a>
 			<a href"http://www.facebook.com"><img class="socialmedia"src="images/twitter.png" href="facebook.com" alt="twitter"></a>
 			</div>
-
-		<span style="margin:left:50px; width:300px; margin-left: 85px;">
+		<span style = "float:left; width: 400px; margin-top:100px;">
 			<a href="info.html" class="pagelink"onMouseOver="this.style.textDecoration='underline';" onMouseOut="this.style.textDecoration='none'">Why Insects?</a>
 			 <a href="recipes.html" class="pagelink"onMouseOver="this.style.textDecoration='underline';" onMouseOut="this.style.textDecoration='none'">Recipes</a>
 </span>		
 			<img class="logo" src="images/studentgrub.png"> </img> 
-			<span style="margin-right:50px; width:300px; margin-left:5px;">
+			<span style = "float:right; width: 400px;margin-top:100px;">
 			<a href="work.html" class="pagelink" onMouseOver="this.style.textDecoration='underline';" onMouseOut="this.style.textDecoration='none'">Our Work</a>
 			<a href="contact.html" class="pagelink" onMouseOver="this.style.textDecoration='underline';" onMouseOut="this.style.textDecoration='none'">Contact Details</a>
 </span>            
@@ -35,7 +33,18 @@
 	
 </div>
 <div id="contentPan">
-
+<script language ="JavaScript">
+var path = ["image1.jpg","image2.jpg","image3.jpg"];
+var i;
+function swapImage(){
+document.images.slide.src=path[i];
+if (i<path.length-1) i++; else i =0;
+setTimeout("swapImage()",3000);}
+window.onload=swapImage;
+</script>
+<div id="slideshow">
+<img src="image1.jpg" name="slide" height="385.9px" width="562.5px">
+</div>
 <div id="photoframe1">
 <img src="images/002-5.jpg" width=385.9px; height = 600px; style="border-style: solid; border-width:1px; margin-bottom: 15px;"> 
  <a class="twitter-timeline" href="https://twitter.com/StudentGrub1" data-widget-id="486455036973572096">Tweets by @StudentGrub1</a> 
