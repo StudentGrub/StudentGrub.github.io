@@ -129,8 +129,16 @@ font-weight: 600;
 }
 #slideshow{
 height: 250px;
-width:700px;
+width:650px;
 overflow: hidden;
 margin-left:auto;margin-right:auto;
 margin-bottom: 25px;
+
 }
+.footer{
+font-size:0.8em;
+color:#5E5E5E;
+}
+#preload-01 { background: url(image1.jpg) no-repeat -9999px -9999px; }
+#preload-02 { background: url(image2.jpg) no-repeat -9999px -9999px; }
+#preload-03 { background: url(image3.jpg) no-repeat -9999px -9999px; }
