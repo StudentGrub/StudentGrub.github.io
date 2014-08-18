@@ -22,5 +22,5 @@ $(slide).animate({
 				  width:'843.75px'}, 3000);
 if (i<path.length-1) i++; else i =0;
 }
-window.onload=swapImage();
+$( document ).ready(swapImage())
 		
