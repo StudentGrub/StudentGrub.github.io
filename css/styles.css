@@ -1,5 +1,5 @@
 body { margin-top: 0px;
-width: 100%; 
+width: 100%;
 text-align: center;
 padding-top: 0px;
 margin:0px; }
@@ -9,9 +9,7 @@ font-family: "Verdana", Times, serif;
 text-align: left;
 padding-top:10px;
 padding-bottom:10px;
-
 }
-
 h1{
 font-family: "Verdana";
 font-size: 2.5em;
@@ -20,26 +18,22 @@ margin-bottom:30px;
 margin-top: 30px;
 color: #387A38;
 width:250px;
-
 }
-
-
 .pagelink{
 padding: 2px 10px 2px 10px;
 border-width: 1px;
 font-size: 1.4em;
 font-family: "Verdana";
-color: inherit; 
-text-decoration: inherit; 
+color: inherit;
+text-decoration: inherit;
 margin-right: 0px;
 display:inline;
 margin-bottom: 0px;
 margin-top:25px;
 font-weight: 600;
- 	color: #FFFFFF;
+color: #FFFFFF;
 }
 .socialmedia{
-
 margin-right: 8px;
 margin-top: 20px;
 vertical-align: top;
@@ -56,22 +50,21 @@ border-top-right-radius:5px;
 height: 180px;
 }
 #closebanner{
- margin-left: auto;
+margin-left: auto;
 margin-right: auto;
-    background:#EEEADD;
-    margin:10px auto 0;
-    border-radius: 17px;
-	position: absolute;
-	width: 900px;
-	background-color: #E0ECC0;
-	display: block;	
+background:#EEEADD;
+margin:10px auto 0;
+border-radius: 17px;
+position: absolute;
+width: 900px;
+background-color: #E0ECC0;
+display: block;	
 }
 #photoframe1{
 width: 45%;
 height: 800px;
 float: right;
 margin-right:10px;}
-
 #contentPan{
 width: 1125px;
 padding: 25px 0px 50px 0px;
@@ -92,7 +85,7 @@ border-top-right-radius:5px;
 margin-bottom: 25px;
 margin-top: 25px;
 text-align: centre;
-font-weight: bold; 
+font-weight: bold;
 letter-spacing: 2px;
 font-family: verdana;
 font-size: 1.5em;
@@ -105,7 +98,7 @@ text-align: left;
 h2{
 font-size: 1.2em;
 text-align: centre;
-font-family: "verdana"; 
+font-family: "verdana";
 }
 .logo{
 vertical-align: top;
@@ -125,21 +118,18 @@ top: 25px;
 li{
 text-align: left;
 letter-spacing: 1.2px;
-font-family: "Verdana"; 
+font-family: "Verdana";
 }
 .info{
 margin-top: 150px;
 }
 .maintext{
-
 padding: 5px;
-
 font-weight: 600;
-
 }
 #slideshow{
 height: 250px;
-width:750px;
+width:700px;
 overflow: hidden;
 margin-left:auto;margin-right:auto;
 margin-bottom: 25px;

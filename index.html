@@ -9,6 +9,7 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script language ="JavaScript" src="slideshow.js"></script>
 </head> 
 </head>
 <body>
@@ -34,19 +35,8 @@
 	
 </div>
 <div id="contentPan">
-<script language ="JavaScript">
-var path = ["image1.jpg","image2.jpg","image3.jpg"];
-var i;
-function swapImage(){
-$("#slideshow").hide();
-document.images.slide.src=path[i];
-$("#slideshow").fadeIn();
-if (i<path.length-1) i++; else i =0;
-setTimeout("swapImage()",5000);}
-window.onload=swapImage;
-</script>
 <div id="slideshow">
-<img src="image1.jpg" name="slide" height="385.9px" width="562.5px">
+<img src="image1.jpg" name="slide" height="482.375px" width="703.125px" style="position:relative; bottom:70px; right:75px;">
 </div>
 <div id="photoframe1">
 <img src="images/002-5.jpg" width=385.9px; height = 600px; style="border-style: solid; border-width:1px; margin-bottom: 15px;"> 
