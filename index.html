@@ -7,8 +7,9 @@
 <title>Student Grub</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
-<script src="banner.js"></script>
-
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head> 
 </head>
 <body>
 
@@ -37,9 +38,11 @@
 var path = ["image1.jpg","image2.jpg","image3.jpg"];
 var i;
 function swapImage(){
+$("#slideshow").hide();
 document.images.slide.src=path[i];
+$("#slideshow").fadeIn();
 if (i<path.length-1) i++; else i =0;
-setTimeout("swapImage()",3000);}
+setTimeout("swapImage()",5000);}
 window.onload=swapImage;
 </script>
 <div id="slideshow">
