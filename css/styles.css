@@ -113,7 +113,6 @@ border-top-right-radius:5px;
 .headline{
 margin-bottom: 25px;
 margin-top: 25px;
-text-align: centre;
 font-weight: bold;
 letter-spacing: 2px;
 font-family: verdana;
@@ -197,7 +196,7 @@ padding:5px;
 float: right;
 margin-right: 85px;
 position: fixed;
-right: 350px;
+right: 16%;
 }
 #preload-01 { background: url(image1.jpg) no-repeat -9999px -9999px; }
 #preload-02 { background: url(image2.jpg) no-repeat -9999px -9999px; }
