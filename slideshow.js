@@ -3,24 +3,24 @@ var i;
 function swapImage(){
 slide = document.images.slide;
 $(slide).fadeOut(50);
-setTimeout("swapAnimate()", 50)
+swapAnimate();
 setTimeout("swapImage()",5000);
 }
 function swapAnimate(){
 $(slide).animate({
 			
-				left:'-=50px',	
+				left:'+=40px',	
 				  height:'482.375px',
 				  width:'703.125px'});
 document.images.slide.src=path[i];
 $(slide).fadeIn();
 $(slide).animate({
 			
-				left:'+=50px',
-			
+				left:'-=40px',
+
+				duration:4500,
 				  height:'578.85px',
-				  width:'843.75px'}, 3000);
+				  width:'843.75px'}, "slow");
 if (i<path.length-1) i++; else i =0;
 }
-$( document ).ready(swapImage())
-		
+window.onload=swapImage;
