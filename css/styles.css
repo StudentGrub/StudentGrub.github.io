@@ -3,7 +3,11 @@ width: 100%;
 text-align: center;
 padding-top: 0px;
 margin:0px; }
-#centerContainer { width: 900px; text-align: left; margin: 0px auto; }
+#centreContainer { 
+width: 50%; 
+text-align: left; 
+margin-left: auto;
+margin-right:auto; }
 p{
 font-family: "Verdana", Times, serif;
 text-align: left;
@@ -17,7 +21,7 @@ letter-spacing: 1.8px;
 margin-bottom:30px;
 margin-top: 30px;
 color: #387A38;
-width:250px;
+text-align:left;
 }
 h2{
 font-family: "Verdana";
@@ -196,7 +200,7 @@ padding:5px;
 float: right;
 margin-right: 85px;
 position: fixed;
-right: 16%;
+right: 9em;
 }
 #preload-01 { background: url(image1.jpg) no-repeat -9999px -9999px; }
 #preload-02 { background: url(image2.jpg) no-repeat -9999px -9999px; }
@@ -212,3 +216,9 @@ a.boxclose{
   padding:2px;
   border-radius:5px;
 	}
+a.maintext {
+margin-left: 5em;
+font-size: 1.6em;
+text-align: left;
+display: block;
+}
